@@ -6,12 +6,12 @@ from torch.cuda.amp import custom_bwd, custom_fwd
 
 from einops import rearrange, repeat
 
-try:
-    from causal_conv1d import causal_conv1d_fn
-    import causal_conv1d_cuda
-except ImportError:
-    causal_conv1d_fn = None
-    causal_conv1d_cuda = None
+# try:
+from causal_conv1d import causal_conv1d_fn
+import causal_conv1d_cuda
+# except ImportError:
+#     causal_conv1d_fn = None
+#     causal_conv1d_cuda = None
 
 import selective_scan_cuda
 

@@ -26,7 +26,7 @@ from torch.utils.cpp_extension import (
 )
 
 
-with open("README.md", "r", encoding="utf-8") as fh:
+with open("csrc/selective_scan/README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 

@@ -1,3 +1,4 @@
 triton
 mamba-ssm
+causal_conv1d
 ninja

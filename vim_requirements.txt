@@ -1,2 +1,3 @@
 triton
 mamba-ssm
+ninja
